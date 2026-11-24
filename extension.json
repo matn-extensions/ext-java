@@ -1,0 +1,15 @@
+{
+  "id": "matn.ext.java",
+  "name": "Java Language Server (Eclipse JDT LS)",
+  "version": "1.0.0",
+  "author": "Matn Team",
+  "description": "Real-time Java diagnostics, Maven/Gradle project resolution via Eclipse JDT LS",
+  "category": "languages",
+  "type": "lsp",
+  "language": "java",
+  "server": "jdtls",
+  "command": "jdtls",
+  "extensions": [".java"],
+  "rootMarkers": ["pom.xml", "build.gradle", "build.gradle.kts", ".git"],
+  "repository": "https://github.com/matn-extensions/ext-java"
+}
